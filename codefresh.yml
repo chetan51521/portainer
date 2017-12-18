@@ -30,7 +30,7 @@ steps:
     type: build
     working_directory: ${{download_docker_binary}}
     dockerfile: ./build/linux/Dockerfile
-    image_name: portainer/portainer
+    image_name: chetan51521/portainer
     tag: ${{CF_BRANCH}}
 
   push_image:
